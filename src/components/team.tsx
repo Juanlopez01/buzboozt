@@ -92,7 +92,7 @@ export function Team() {
   }, [])
 
   return (
-    <section id="team" ref={sectionRef} className="py-20 bg-gray-50">
+    <section id="equipo" ref={sectionRef} className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">
         <div
           className={cn(

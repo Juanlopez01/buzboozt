@@ -37,7 +37,7 @@ export function About() {
   ]
 
   return (
-    <section id="about" ref={sectionRef} className="py-20 bg-white">
+    <section id="sobre nosotros" ref={sectionRef} className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div

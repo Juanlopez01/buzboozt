@@ -76,7 +76,7 @@ export function Projects() {
   }, [])
 
   return (
-    <section id="projects" ref={containerRef} className="py-20 bg-gray-50">
+    <section id="proyectos" ref={containerRef} className="py-20 bg-gray-50 scroll-smooth" >
       <div className="container mx-auto px-4 md:px-6">
         <div
           className={cn(

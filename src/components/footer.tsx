@@ -28,7 +28,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Links rápidos</h3>
             <ul className="space-y-3">
-              {["Inicio", "Proyectos", "Servicios", "Equipo", "Nosotros", "Contacto"].map((item) => (
+              {["Inicio", "Proyectos", "Servicios", "Equipo", "Sobre nosotros", "Contacto"].map((item) => (
                 <li key={item}>
                   <Link
                     href={`#${item.toLowerCase()}`}
@@ -53,7 +53,7 @@ export function Footer() {
                 "Edición de video",
               ].map((item) => (
                 <li key={item}>
-                  <Link href="#services" className="text-gray-300 hover:text-white transition-colors hover:underline">
+                  <Link href="#servicios" className="text-gray-300 hover:text-white transition-colors hover:underline">
                     {item}
                   </Link>
                 </li>
@@ -65,8 +65,8 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contactanos</h3>
             <address className="not-italic text-gray-300 space-y-3">
               <p>Argentina</p>
-              <p>Phone: (54) 3624-804761</p>
-              <p>Email: juanldevelop@gmail.com</p>
+              <p ><a href="https://api.whatsapp.com/send?phone=543624804761">Teléfono: (54) 3624-804761</a></p>
+              <a href="mailto:juanldevelop@gmail.com" >Email: juanldevelop@gmail.com</a>
             </address>
           </div>
         </div>

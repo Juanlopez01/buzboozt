@@ -51,7 +51,7 @@ export function Contact() {
   }, [])
 
   return (
-    <section id="contact" ref={sectionRef} className="py-20 bg-gray-50">
+    <section id="contacto" ref={sectionRef} className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">
         <div
           className={cn(
@@ -97,7 +97,7 @@ export function Contact() {
                   <Mail className="h-6 w-6 text-[#0a2463] flex-shrink-0 mt-0.5" />
                   <div>
                     <h4 className="font-medium text-gray-900">Email</h4>
-                    <p className="text-gray-600">juanldevelop@gmail.com</p>
+                    <a href="mailto:juanldevelop@gmail.com" className="text-gray-600">juanldevelop@gmail.com</a>
                   </div>
                 </div>
               </div>

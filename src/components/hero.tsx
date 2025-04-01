@@ -65,20 +65,27 @@ export function Hero() {
             Ayudamos a tu negocio a crecer mediante estrategias de marketing analíticas, campañas creativas y soluciones innovadoras para conseguir resultados tangibles.
           </p>
           <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              className="bg-[#0a2463] hover:bg-[#0a2463]/90 text-white px-8 py-6 rounded-md transition-all duration-300 ease-in-out hover:shadow-lg group"
-              size="lg"
+            <a
+              href="https://calendly.com/juanldevelop/30min"
+              target='_blank'
             >
-              Obtener 20% de descuento
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-            </Button>
-            <Button
-              variant="outline"
-              className="border-[#0a2463] text-[#0a2463] hover:bg-[#0a2463]/10 px-8 py-6 rounded-md transition-all duration-300"
-              size="lg"
-            >
-              Nuestro trabajo
-            </Button>
+              <Button
+                className="bg-[#0a2463] hover:bg-[#0a2463]/90 text-white px-8 py-6 rounded-md transition-all duration-300 ease-in-out hover:shadow-lg group"
+                size="lg"
+              >
+                Obtener 20% de descuento
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </Button>
+            </a>
+            <a href="#servicios">
+              <Button
+                variant="outline"
+                className="border-[#0a2463] text-[#0a2463] hover:bg-[#0a2463]/10 px-8 py-6 rounded-md transition-all duration-300"
+                size="lg"
+              >
+                Nuestro trabajo
+              </Button>
+            </a>
           </div>
         </div>
       </div>
