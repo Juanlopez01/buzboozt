@@ -47,7 +47,7 @@ const team: TeamMember[] = [
     id: 3,
     name: "Jimena Rosciani",
     role: "Community Manager",
-    bio: "Data-driven marketer specializing in performance campaigns and analytics.",
+    bio: "Community manager con +5 años de experiencia en proyectos de crecimiento de marcas.",
     image: "/JimenaTeam.JPG?height=400&width=400",
     social: {
       linkedin: "#",
@@ -55,18 +55,6 @@ const team: TeamMember[] = [
       email: "taylor@buzboozt.com",
     },
   },
-  // {
-  //   id: 4,
-  //   name: "Victoria López",
-  //   role: "Diseñadora Gráfica",
-  //   bio: "Storyteller and content expert who helps brands find their authentic voice.",
-  //   image: "/placeholder.svg?height=400&width=400",
-  //   social: {
-  //     linkedin: "#",
-  //     twitter: "#",
-  //     email: "jordan@buzboozt.com",
-  //   },
-  // },
 ]
 
 export function Team() {
